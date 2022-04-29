@@ -13,7 +13,9 @@ class NavbarComp extends Component {
         <div>
           <Navbar className='myNavBar' collapseOnSelect expand='lg'>
             <Navbar.Brand as={Link} to={'/'}>
+              {/* <h3 className='_6figs'> */}
               6 Figures
+              {/* </h3> */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav' />
             <Navbar.Collapse id='responsive-navbar-nav'>
