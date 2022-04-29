@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.Navbar.Brand{
+  font-weight: 300;
+}
 
 .myNavBar {
   background-color: transparent;
@@ -16,11 +19,11 @@
 .myNavLink:hover {
   color: #2e7c3b !important;
 }
-.body {
+/* .body {
   background-color: #ffffff;
-  border: 8px solid #1a168d;
+  border: 6px solid #1a168d;
   border-radius: 60px;
-}
+} */
 .App {
   background: #f3ebdf;
   padding: 3rem;
