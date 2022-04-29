@@ -1,24 +1,33 @@
 import '../App.css';
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { BrowserRouter as Router, Routes, Route, Link ,} from 'react-router-dom';
+
 
 class Home extends Component {
   render() {
     return (
       <div>
         <div className='homeSection'>
-          <h1 className='_6figs'>6 Figures</h1>
-          <button className='subBtn'>Subscribe</button>
+          <h1  className='_6figs'>6 Figures</h1>
+          <a href='https://discord.gg/kEzaYNwt'>
+          <button className='subBtn'>Join Now</button>
+          </a>
         </div>
 
         {/*what we do*/}
 
         <div className='wWd'>
           <Container>
+            <br/>
+            <br/>
             <Row className='text-center'>
               <Col lg={12}>
                 <h3>What We Do</h3>
               </Col>
+              <br/>
+              <br/>
+              <br/>
               <Col md={6} lg={4}>
                 <Image
                   className='img'
